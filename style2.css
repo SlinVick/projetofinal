@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+
+}
+:root{
+    text-align: center;
+    --cor--fundo:#556B2F;
+    --cor--hover:#282c29;
+    --cor--primaria:#ffffff;
+    
+    
+}
+
+.dp-menu ul{
+    list-style-type: none;
+    padding: 0;
+    border-bottom-left-radius:25px;
+}
+
+.dp-menu ul{
+    background-color: var(--cor--fundo);
+}
+
+.dp-menu ul li{
+ display: inline;
+ position: relative;
+}
+
+.dp-menu ul li a {
+color: var(--cor--primaria);
+text-decoration: none;
+display: inline-block;
+padding: 10px;
+transition: background .3s;
+height: 65px;
+padding-top: 20px;
+
+}
+
+.dp-menu ul li a:hover{
+    background-color: var(--cor--hover);
+}
+
+/*sub menu*/
+.dp-menu ul ul{
+   display: none;
+   position: absolute;
+
+}    
+
+.dp-menu ul li:hover ul{
+    display: block;
+    opacity: 0;
+}
+
+.dp-menu ul ul{
+   width: 150px;
+}
+.dp-menu ul ul li a{
+    display:block;
+}
+
+    
+body{
+    background-color:#000000;
+    
+}
+
+
+div#logo img{left: 30px;
+position: absolute;
+max-width: 115px;
+top: 0px;
+}
+
+ol{right: 30px;
+position: absolute;
+max-width: 300px;
+top: 0px;
+color: rgb(255, 255, 255);
+font-family: 'Segoe UI';
+
+}
+
+li{
+    font-family: 'Segoe UI';
+    size: 50px;
+}
+h1{
+    font-family: 'Segoe UI';
+    font-size: 35px;
+}
+
+div#contatoimg img{center: 30px; right: 80px;
+    position: relative; 
+    max-width: 50px;
+   
+    }
+    div#contato2img img{
+        position: relative; bottom: 55px; 
+        max-width: 50px;
+
+    }
+    div#contato3img img{
+        position: relative; bottom: 105px; left:77px;
+        max-width: 45px;
+
+    }
+
+    div#logo2 img{left:100px;
+        position: absolute;
+        max-width: 115px;
+        top: 0px;
+        
+    }
+    div#foto img{left:730px;
+        position: absolute;
+        max-width: 550px;
+        top: 190px;
+    }
+
+    .footer{
+        position:absolute;
+        bottom:0;
+        width:100%;
+        color: #ffffff;
+    }
+div#texto p{
+   
+    color: #F5FFFA;
+   font-size: 25px;
+   font-family: Verdana;
+   right:650px;
+        position: absolute;
+        max-width: 550px;
+        top: 210px;
+ 
+
+   
+}
+div#textmi p{
+    position: relative; 
+    bottom: 10px;
+    color: #F5FFFA;
+   font-size: 20px;
+   font-family: Verdana;
+}
+
+div#textmo p{
+    position: relative; 
+    bottom: 10px;
+    color: #F5FFFA;
+   font-size: 20px;
+   font-family: Verdana;    
+}
+
+div#logos img{
+left: 180px;
+    position:relative; 
+    max-width: 400px;
+    bottom: 95px;
+}
+div#logog img{
+    left: 430px;
+    position:relative; 
+    max-width: 450px;
+    bottom:330px;    
+
+}
+div#sobre p{
+    color: #F5FFFA;
+    font-size: 30px;
+    position: relative;
+    top: 105px;
+    right: 250px;
+    
+
+
+}
